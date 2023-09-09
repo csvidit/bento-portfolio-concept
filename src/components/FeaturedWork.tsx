@@ -8,7 +8,7 @@ const FeaturedWork = () => {
       <div className="text-teal-900 text-xl lg:text-2xl font-normal p-8">
         Featured Work
       </div>
-      <div className="flex flex-row space-x-4 h-max z-0">
+      <div className="flex flex-col-reverse space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4 h-max z-0">
         <div className="z-0 max-h-72 overflow-hidden px-8 w-fit h-fit transition-all duration-200 ease-in-out">
           <Image
             src="/iphone-14-pro.png"
@@ -18,7 +18,7 @@ const FeaturedWork = () => {
             className="z-0"
           />
         </div>
-        <div className="flex flex-col justify-between w-1/2 pb-8 text-slate-600">
+        <div className="flex flex-col space-y-8 lg:space-y-0 justify-between lg:w-1/2 px-8 lg:px-0 pb-8 text-slate-600">
           <div className="text-slate-400 text-xl lg:text-2xl">
             The dynamic island on the iPhone 14 Pro. Yup, that was my team that
             did it. <span className="text-slate-600">You&apos;re welcome.</span>

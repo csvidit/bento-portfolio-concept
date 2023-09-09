@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Intro = () => {
   return (
-    <div className="col-span-3 rounded-2xl p-8 flex flex-row space-x-4 bg-neutral-100 bg-opacity-75 items-center">
+    <div className="col-span-3 rounded-2xl p-8 flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:space-x-8 bg-neutral-100 bg-opacity-75 lg:items-center">
       <Image
         src="/matthew.png"
         alt="Male bearded memoji"
