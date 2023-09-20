@@ -15,10 +15,11 @@ const Musings = () => {
   return (
     <MotionConfig
       transition={{
-        type: "just"
-        // duration: 0.4,
-        // damping: 20,
-        // stiffness: 200,
+        type: "spring",
+        duration: 0.4,
+        damping: 30,
+        stiffness: 200,
+        delay: 0.001
       }}
     >
       <LayoutGroup>
@@ -54,7 +55,8 @@ const Musings = () => {
                 onHoverEnd={() => setHover(false)}
                 layoutRoot
                 layout
-                className="group mr-8 flex flex-row w-fit text-sm space-x-1 items-center p-2 rounded-full border border-slate-300 transition-all duration-200 ease-in-out hover:ring hover:ring-slate-300 hover:border-slate-600"
+                style={{borderWidth: "1px", borderRadius: "9999px"}}
+                className="group mr-8 flex flex-row w-fit text-sm space-x-1 items-center p-2 border-slate-300 transition-all duration-200 ease-in-out hover:ring hover:ring-slate-300 hover:border-slate-600"
                 href="https://www.apple.com/iphone-14-pro/"
                 rel="noreferrer noopener"
                 target="_blank"
@@ -68,7 +70,8 @@ const Musings = () => {
                       initial={{ translateX: -10, opacity: 0 }}
                       animate={{ translateX: 0, opacity: 1 }}
                       exit={{ translateX: 10, opacity: 0 }}
-                      className="w-fit line-clamp-1 text-xs"
+                      // transition={{ transitionDelay: 0.4 }}
+                      className="w-full line-clamp-1 text-xs"
                     >
                       Read it on Medium
                     </motion.div>

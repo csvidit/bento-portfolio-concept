@@ -6,8 +6,9 @@ const Footer = () => {
       <div>
         &copy; 2023 Vidit Khandelwal. This is a portfolio design/concept made by
         Vidit Khandelwal using dummy, hypothetical content. For more things like
-        this, go to{" "}
-        <Link className="transition-all duration-200 ease-in-out border-b border-b-slate-400 text-slate-600 hover:border-b-slate-600 hover:text-slate-400" href="https://viditkhandelwal.com">viditkhandelwal.com</Link>
+        this, go to
+        <Link className="transition-all duration-200 ease-in-out mx-1 border-b border-b-slate-400 text-slate-600 hover:border-b-slate-600 hover:text-slate-400" href="https://viditkhandelwal.com">viditkhandelwal.com.</Link>
+        iPhone design and Keynote logo &copy; Apple Inc., Figma and Substance 3D Stager logo &copy; Adobe Inc.
       </div>
     </div>
   );
