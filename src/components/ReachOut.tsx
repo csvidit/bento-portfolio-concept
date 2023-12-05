@@ -27,10 +27,10 @@ const ReachOut = () => {
         </button>
         <button className="flex flex-col space-y-2 items-center transition-all duration-200 ease-in-out hover:opacity-100 w-fit h-fit hover:drop-shadow-lg">
           <Image
-            src="/twitter.svg"
+            src="/twitter-x.svg"
             width={64}
             height={64}
-            alt="Twitter Icon"
+            alt="X (formerly Twitter) Icon"
           />
         </button>
         <button className="flex flex-col space-y-2 items-center transition-all duration-200 ease-in-out hover:opacity-100 w-fit h-fit hover:drop-shadow-lg">
